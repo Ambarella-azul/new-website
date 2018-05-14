@@ -1,0 +1,225 @@
+/****** BASE STYLES ******/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ebebeb;
+}
+
+#about, #work, #contact {
+    height: 600px;
+}
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/****** HEADER ******/
+header {
+  height: 800px;
+  background: url('../img/hero.png');
+  background-size: cover;
+}
+
+#home h1 {
+    text-align: center;
+    position: absolute;
+    font-family: 'bryana aningsih shara';
+    font-size: 100px;
+    color: #fcb100;
+    padding: 180px 0px 0px 269px;
+}
+
+#home h2 {
+    text-align: center;
+    position: absolute;
+    font-family: 'Quattrocento', serif;
+    font-size: 60px;
+    color: #3b3b3b;
+    padding: 350px 0px 0px 400px;;
+}
+
+#menu nav {
+  overflow: auto;
+  padding: 650px 0;
+}
+
+#menu nav ul li{
+  display: inline-block;
+  color: inherit;
+  text-align: center;
+}
+
+#menu nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 30px;
+    color: #3b3b3b;
+    padding: 70px 10px 0px 70px;
+    position: relative;
+}
+
+
+/****** ABOUT ******/
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Quattrocento', serif;
+    font-size: 50px;
+    color:  #fcb100;
+}
+#about p {
+    font-size: 27px;
+    color: #3b3b3b;
+    line-height: 42px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+/***** MESSAGE *****/
+#message .full-width {
+  padding: 80px 0;
+  border: 80px;
+  height: inherit;
+}
+
+#message h3 {
+  font-size: 24px;
+  font-family: 'Quattrocento';
+  font-style: italic;
+  text-align: left;
+  color: #fcb100;
+}
+
+#message h1 {
+  font-size: 154px;
+  font-family: 'Quattrocento', serif;
+  font-weight: 400;
+  text-align: center;
+  color: #ebebeb;
+}
+
+#message {
+  background-color: #a29790;
+  text-align: center;
+}
+
+/****** WORK ******/
+#work .full-width {
+    padding: 30px 0;
+}
+
+#work {
+  text-align: center;
+}
+
+#work h2 {
+    font-family: 'Quattrocento', serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: left;
+    color:  #fcb100;
+}
+#work h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+
+}
+
+#work p {
+    font-size: 18px;
+    color: #3b3b3b;
+    line-height: 40px;
+    padding-right: 10px;
+}
+
+/****** Portfolio ******/
+
+#portfolio .full-width {
+    padding: 30px 0;
+}
+
+#portfolio {
+  background-color: #a29790;
+}
+
+#portfolio h2 {
+  font-family: 'Quattrocento', serif;
+  font-weight: bold;
+  font-size: 50px;
+  color:  #fcb100;
+}
+
+#portfolio p {
+  font-size: 30px;
+  color: #3b3b3b;
+  line-height: 30px;
+  padding-right: 20px;
+  color: #3b3b3b;
+  text-align: justify;
+}
+
+/****** CONTACT ******/
+
+#contact {
+  height: 800px;
+  background: url('../img/computer-tea-flower-footer.png');
+  background-size: cover;
+}
+#contact .full-width {
+    padding: 45px 0;
+}
+
+#contact h2 {
+  font-family: 'Quattrocento', serif;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: left;
+  color:  #fcb100;
+}
+#contact p {
+  font-size: 27px;
+  line-height: 45px;
+  padding-right: 480px;
+  color: #3b3b3b;
+  text-align: justify;
+}
+
+#contact  h3 {
+    font-family: 'Quattrocento', serif;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 45px;
+    margin: -30px 350px 5px 30px;
+    text-align: center;
+    color: #3b3b3b;
+}
+
+#contact #envelope a {
+    text-decoration: none;
+    color: #3b3b3b;
+    font-weight: 400;
+    font-size: 28px;
+    padding-left: 300px;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact  ul img {
+    font-size: 32px;
+    padding-left: 125px;
+}
